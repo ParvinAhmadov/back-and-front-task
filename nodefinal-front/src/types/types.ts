@@ -35,3 +35,15 @@ export interface FeaturedSectionProps {
   FeaimageUrl2: string;
 }
 
+export interface Card {
+  _id: string;
+  title: string;
+  price: number;
+  image: string; 
+  image2: string; 
+  createdAt: string;
+  cardType: string;
+  __v: number;
+}
+
+
