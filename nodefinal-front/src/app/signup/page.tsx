@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState } from "react";
 import Link from "next/link";
 import axios from "axios";
@@ -62,7 +61,7 @@ const Signup = () => {
         <div className="flex flex-col items-center justify-center bg-white">
           <div className="max-w-lg px-5 py-16 text-center md:px-10 md:py-24 lg:py-32">
             <h2 className="mb-8 text-3xl font-bold md:mb-12 md:text-5xl">
-              Start your 14-day free trial
+              ALUKAS & CO
             </h2>
             <form
               className="mx-auto mb-4 max-w-sm pb-4"
@@ -134,7 +133,7 @@ const Signup = () => {
               )}
               <button
                 type="submit"
-                className="flex w-full gap-2 items-center justify-center bg-[#276ef1] px-8 py-4 text-center font-semibold text-white transition hover:bg-[#1a5bb8]"
+                className="flex w-full gap-2 items-center justify-center bg-[#222222] px-8 py-4 text-center font-semibold text-white transition hover:[box-shadow:rgb(0,0,0)_-8px_8px]"
                 disabled={loading}
               >
                 {loading ? "Signing up..." : "Sign up"}
@@ -159,20 +158,22 @@ const Signup = () => {
         </div>
         <div className="flex flex-col items-center justify-center bg-[#f2f2f7]">
           <div className="max-w-lg px-5 py-16 md:px-10 md:py-24 lg:py-32">
-            <div className="mb-6 ml-2 flex h-14 w-14 items-center justify-center bg-[#276ef1]">
-              <img
-                src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358f5ec37c8c32b17d1c725_Vector-9.svg"
-                alt=""
-                className="inline-block"
-              />
+            <div className="mb-6 ml-2 flex h-14 w-14 items-center justify-center bg-[#222222] [box-shadow:rgb(0,0,0)_-8px_8px]">
+              <picture>
+                {" "}
+                <img
+                  src="https://assets.website-files.com/6357722e2a5f19121d37f84d/6358f5ec37c8c32b17d1c725_Vector-9.svg"
+                  alt=""
+                  className="inline-block"
+                />
+              </picture>
             </div>
-            <p className="mb-8 text-[#647084] md:mb-12 lg:mb-16">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit ut
-              aliquam, purus sit amet luctus venenatis, lectus magna fringilla
-              urna, porttitor rhoncus dolor purus non enim.
-            </p>
-            <p className="font-bold">John Robert</p>
-            <p className="text-sm">Senior Webflow Developer</p>
+            <div className="flex flex-col gap-2 mb-10">
+              <p className=" text-xl text-[#647084] ">ALUKAS & CO</p>
+              <p>SIGN UP</p>
+            </div>
+            <p className="font-bold">Parvin Ahmadov</p>
+            <p className="text-sm">Front end Developer</p>
           </div>
         </div>
       </div>

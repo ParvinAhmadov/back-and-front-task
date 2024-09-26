@@ -19,25 +19,25 @@ const CustumerReviewSection = () => {
       name: "- Donald Duclk -",
     },
     {
-      title: "Amazing Jewelry!",
+      title: " Beautiful products",
       review:
-        "The necklace I bought was amazing. My wife loved it. The delivery was fast, and the customer service was great.",
-      rating: 4,
-      name: "Alice Johnson",
+        "Beautiful clothes. I always get complements. Good quality and items wash well. products and designs and such great",
+      rating: 5,
+      name: "- Niamh Oxley -",
     },
     {
       title: "Beautiful Bracelet",
       review:
-        "Beautiful bracelet, but the clasp was a bit loose. Overall, I'm happy with the purchase.",
+        "Great products and designs and such great quality, they always wash up well no matter how many times I wash them.",
       rating: 4,
-      name: "Emily Clark",
+      name: "- Emily Clark -",
     },
     {
       title: "Stunning Ring",
       review:
-        "This ring is stunning! The craftsmanship is excellent, and it arrived in perfect condition.",
+        "Great products and designs and such great quality, they always wash up well no matter how many times I wash them.		",
       rating: 5,
-      name: "Michael Lee",
+      name: "- Mary Green -",
     },
   ];
 

@@ -17,16 +17,18 @@ export default function Home() {
     <>
       <div>
         <ImagesSwiper />
+
         <FashionCards />
+
         <PopularCatagories />
         <TrendyCollectionCards />
         <FindShopsSection />
         <AutumnCollectionCards />
         <BigCardSection />
-        <FeaturedProductCards/>
+        <FeaturedProductCards />
         <CustumerReviewSection />
         <ReadJournalSection />
-        <FollowUsSection/>
+        <FollowUsSection />
         <StayEmailLayout
           heading="Subscribe Newsletter"
           subheading="Sign up to our Newsletter and get the discount code."
